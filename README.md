@@ -210,27 +210,6 @@ Para ejecutar las pruebas del proyecto:
 
 ---
 
-## 📸 Capturas de pantalla
-
-Puedes agregar capturas del sistema dentro de una carpeta llamada `screenshots`.
-
-Ejemplo:
-
-```text
-screenshots/
-├── inicio.png
-├── agregar-contacto.png
-└── editar-contacto.png
-```
-
-Luego puedes mostrarlas en el README así:
-
-```markdown
-![Vista principal](screenshots/inicio.png)
-```
-
----
-
 ## 📚 Aprendizajes aplicados
 
 Durante el desarrollo de este proyecto se aplicaron conceptos importantes como:
@@ -246,36 +225,6 @@ Durante el desarrollo de este proyecto se aplicaron conceptos importantes como:
 - Diseño visual con Bootstrap.
 - Uso de Lombok para reducir código repetitivo.
 - Separación de responsabilidades por capas.
-
----
-
-Nombre recomendado:
-
-```text
-agenda-contactos-springboot-thymeleaf
-```
-
-Descripción recomendada:
-
-```text
-Aplicación web CRUD para gestionar contactos, desarrollada con Spring Boot, Thymeleaf, Spring Data JPA, MySQL y Bootstrap.
-```
-
----
-
-## 🏷️ Topics recomendados para GitHub
-
-```text
-java
-spring-boot
-thymeleaf
-spring-data-jpa
-mysql
-crud
-bootstrap
-mvc
-maven
-```
 
 ---
 

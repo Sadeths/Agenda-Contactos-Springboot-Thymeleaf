@@ -133,26 +133,14 @@ Antes de ejecutar el proyecto, crea una base de datos en MySQL.
 CREATE DATABASE contactos_db;
 ```
 
-Luego configura el archivo:
+En macOS o Linux, define la contraseña de MySQL antes de iniciar la aplicación:
 
-```text
-src/main/resources/application.properties
+```bash
+export SPRING_DATASOURCE_PASSWORD='tu_password'
 ```
 
-Ejemplo de configuración:
-
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/contactos_db?createDatabaseIfNotExist=true
-spring.datasource.username=root
-spring.datasource.password=tu_password
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-```
-
-> ⚠️ Importante: no subas contraseñas reales a GitHub.  
-> Cambia `tu_password` por un valor de ejemplo o utiliza variables de entorno.
+Puedes ajustar el usuario con `SPRING_DATASOURCE_USERNAME` y la conexión con
+`SPRING_DATASOURCE_URL`.
 
 ---
 
